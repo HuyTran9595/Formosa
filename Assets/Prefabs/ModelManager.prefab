@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6983546460188401299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6983546460188401297}
+  - component: {fileID: 6983546460188401298}
+  m_Layer: 0
+  m_Name: ModelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6983546460188401297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983546460188401299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 359.69824, y: 188.39188, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6983546460188401298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6983546460188401299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b7c31ca6fff9d4395dee439749f008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grassStartModel: {fileID: 1153895061407334481, guid: b817226063b994b429117ed9234f2016, type: 3}
+  grassMediumModel: {fileID: 7322171585221060762, guid: 62b631dd6c0412944ae6d81d7cc872cb, type: 3}
+  grassFinishedModel: {fileID: 634716157503321859, guid: 9caaa656a5455b943880db142a57dafb, type: 3}
+  flowerStartModel: {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+  flowerMediumModel: {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+  flowerFinishedModel: {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+  vineStartModel: {fileID: 1188179406855440498, guid: 5bc5e1afc85c0714ba57cd757ca35ba3, type: 3}
+  vineMediumModel: {fileID: 3001729308700025369, guid: f2a506291373fad469f015da0cd9bf36, type: 3}
+  vineFinishedModel: {fileID: 5561650703911844093, guid: 41627366555d20343b26f2a2da14b5e8, type: 3}
+  herbStartModel: {fileID: 1105244802670594271, guid: 67368b3f6a69072458298995f8ae78b8, type: 3}
+  herbMediumModel: {fileID: 6721762385834742175, guid: 30f4e5faf182f5a4cb26a72de4f48e9b, type: 3}
+  herbFinishedModel: {fileID: 114347114857829567, guid: 7bc312889c97ed946afac31945cdf09e, type: 3}
+  fungiStartModel: {fileID: 8153329073765135142, guid: b41c77bbe3262314a962562d22e6e288, type: 3}
+  fungiMediumModel: {fileID: 2066415347314093548, guid: bfc154914a8960e4cbe5fc1b7c5d9514, type: 3}
+  fungiFinishedModel: {fileID: 2149254183778244976, guid: e53a29014789ed94c9eb146ad21242d7, type: 3}
+  mossStartModel: {fileID: 4963591948146388638, guid: 4a591531ee2e3c241ad8b71155006fdb, type: 3}
+  mossMediumModel: {fileID: 4963591948146388638, guid: 4a591531ee2e3c241ad8b71155006fdb, type: 3}
+  mossFinishedModel: {fileID: 4239313420833874317, guid: 7f7362a427676fe4c9b0b986002a2fea, type: 3}
+  models:
+  - stageModels:
+    - {fileID: 1153895061407334481, guid: b817226063b994b429117ed9234f2016, type: 3}
+    - {fileID: 7322171585221060762, guid: 62b631dd6c0412944ae6d81d7cc872cb, type: 3}
+    - {fileID: 634716157503321859, guid: 9caaa656a5455b943880db142a57dafb, type: 3}
+  - stageModels:
+    - {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+    - {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+    - {fileID: 7074359572233320812, guid: a97239b62b7ac674e87436075bdabf3a, type: 3}
+  - stageModels:
+    - {fileID: 1188179406855440498, guid: 5bc5e1afc85c0714ba57cd757ca35ba3, type: 3}
+    - {fileID: 3001729308700025369, guid: f2a506291373fad469f015da0cd9bf36, type: 3}
+    - {fileID: 5561650703911844093, guid: 41627366555d20343b26f2a2da14b5e8, type: 3}
+  - stageModels:
+    - {fileID: 1105244802670594271, guid: 67368b3f6a69072458298995f8ae78b8, type: 3}
+    - {fileID: 6721762385834742175, guid: 30f4e5faf182f5a4cb26a72de4f48e9b, type: 3}
+    - {fileID: 114347114857829567, guid: 7bc312889c97ed946afac31945cdf09e, type: 3}
+  - stageModels:
+    - {fileID: 8153329073765135142, guid: b41c77bbe3262314a962562d22e6e288, type: 3}
+    - {fileID: 2066415347314093548, guid: bfc154914a8960e4cbe5fc1b7c5d9514, type: 3}
+    - {fileID: 2149254183778244976, guid: e53a29014789ed94c9eb146ad21242d7, type: 3}
+  - stageModels:
+    - {fileID: 4963591948146388638, guid: 4a591531ee2e3c241ad8b71155006fdb, type: 3}
+    - {fileID: 4963591948146388638, guid: 4a591531ee2e3c241ad8b71155006fdb, type: 3}
+    - {fileID: 4239313420833874317, guid: 7f7362a427676fe4c9b0b986002a2fea, type: 3}

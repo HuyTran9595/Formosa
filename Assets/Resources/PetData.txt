@@ -1,0 +1,4 @@
+-id, item name,image, prefab, item Type, price, max held
+-ID,Name,Cost, Description, Icon, Mesh, Find Timer, Find Count, Find Indexes
+0,Sheep, 10, A sheep. Baaa!,Funny-Sheep-Facts,Sheep,180,2,0,1
+1,Rabbit, 15, A rabbit. Hacha!,download,Rabbit,180,1,0

@@ -1,0 +1,52 @@
+https://youtu.be/ZhI1l6hu8s8 video link
+In Huy_test scene, click on the Quest System object, open the Prefab. Everything should be changed in the Prefab object.
+	you can duplicate my scene and work on your own scene too
+
+0. Get the quest name: match quest name with name in FlowerData.csv
+
+1. In QuestSystem Prefab editor, edit ExampleQuest_test object
+	Change object name
+	Change Quest name
+	Change Element 0 under Tracker_Names
+	Change Element 0 under Tracker_Achived (how many times do players have to do to finish the quest?)
+
+
+2. Create script for the quest
+	(Assets -> Scripts -> Managers -> Quest System -> Single Quest Scripts -> Testing Quests)
+	In Testing Quest folder, create script for the quest. Script name matches the quest name.
+		We call this fine QuestName.cs
+	Open QuestName.cs (Visual Studio, Visual Studio Code or any IDE you like)
+	Copy/Paste ExampleQuest.cs to QuestName.cs
+	Edit script accordingly (guides included in script)
+
+3. Back to the QuestSystem prefab editor, edit ExampleQuest_test object
+	Remove ExampleQuest.cs component
+	Add QuestName.cs component
+
+4. Testing
+	Start the scene
+	Test 1: Click on Quest system icon, scroll to the last quest, check Quest name, tracking name, progress 
+	Test 2: Finish part of the quest and check if the progress is updated 
+		some quests you just need to buy item
+		some quests you need to plant and gather something
+	Test 3: Over-finish the quest and see of the progress is updated. IF the quest is done, 
+		there should be a "Finish" button pops up. Click the Finish button to finish the quest. The UI should disappear.
+
+5. Test another quest
+	Update your current testing quest game object accordingly. Treat it like an Example Quest.
+
+
+Tips:
+	- certain items can be bought if player is high level. Press "m" to increase player level.
+	- if you accidentally edit Quest System game object in the scene and not in prefab editor, you can choose to "Revert All" 
+		under Overrides option.
+	- if the error is related to Unity Editor, ignore it.
+	This is the error you should ignore
+		NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.GameObjectInspector.ClearPreviewCache () (at <67055f1be3654e2a987254d5437ee5b8>:0)
+UnityEditor.GameObjectInspector.ReloadPreviewInstances () (at <67055f1be3654e2a987254d5437ee5b8>:0)
+UnityEditor.GameObjectInspector.OnForceReloadInspector () (at <67055f1be3654e2a987254d5437ee5b8>:0)
+UnityEditor.AssetDatabase:ImportAsset(String)
+Unity.Notifications.UnityNotificationEditorManager:Initialize() (at Library/PackageCache/com.unity.mobile.notifications@1.0.3/Editor/UnityNotificationEditorManager.cs:380)
+Unity.Notifications.UnityNotificationEditorManager:OnProjectLoaded() (at Library/PackageCache/com.unity.mobile.notifications@1.0.3/Editor/UnityNotificationEditorManager.cs:342)
+

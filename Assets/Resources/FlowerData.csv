@@ -1,0 +1,87 @@
+-ID,Name, Type, Process Time, Ideal Temp, unlock, Price, Description, Icon, Mesh,NextItemID, biome, genus
+0,Grass Root Seed,Seed,0.5,20,1,1,A small seed bursting with potential,GR_Seed,Tulipa1D-bloomer,1, unknown, grass
+1,Grass Root,Plant,0.5,-1,1,2,A quick growing plant perfect for starting a farm,GR_Plant,Tulipa1D-bloomer,2, unknown, grass
+2,Dried Grass Root,DryHerb,0.5,-1,1,4,A simple herb that can be brewed for medicinal purposes,GR_Dried,Tulipa1D-bloomer,-1, unknown, grass
+3,Fragrant Orchid Seed,Seed,1,25,1,8,A small seed only able to sprout in the perfect conditions,FO_Seed,Tulipa1D-bloomer,4, unknown, flower
+4,Fragrant Orchid,Plant,1,-1,1,10,Raw produce that can be turned into a perfume,FO_Plant,Tulipa1D-bloomer,5, unknown, flower
+5,Dried Fragrant Orchid,DryHerb,1,-1,1,30,An elegant herb used to enhance the effect of other perfumes,FO_Dried,Tulipa1D-bloomer,-1, unknown, flower
+6,Desert Grass Root Seed,Seed,1,30,1,2,A small seed able to withstand any conditions,DGR_Seed,Tulipa1D-bloomer,7, desert, grass
+7,Desert Grass Root,Plant,1,-1,1,5,Thick blades of orange grass ,DGR_Plant,Tulipa1D-bloomer,8, desert, grass
+8,Dried Desert Grass Root,DryHerb,2,-1,1,10,A dry herb that can be brewed for special medicinal purposes,DGR_Dried,Tulipa1D-bloomer,-1, desert, grass
+9,Giant Jungle Orchid Seed,Seed,2,20,1,8,A small seed ready to grow into a massive flower,GJOS_Seed,Tulipa1D-bloomer,10, jungle, flower
+10,Giant Jungle Orchid ,Plant,2,-1,1,12,Thick blades of orange grass ,GJOS_Plant,Tulipa1D-bloomer,11, jungle, flower
+11,Dried Giant Jungle Orchid,DryHerb,2,-1,1,30,A dry herb that can be brewed for special medicinal purposes,GJOS_Dried,Tulipa1D-bloomer,-1, jungle, flower
+12,Thorny Jungle Vine Seed,Seed,5,30,1,25,A wild seed ready to grow onto almost anything,TJV_Seed,Tulipa1D-bloomer,13, jungle, vine
+13,Thorny Jungle Vine,Plant,5,-1,1,75,Thick blades of orange grass ,TJV_Plant,Tulipa1D-bloomer,14, jungle, vine
+14,Dried Thorny Jungle Vine,DryHerb,3,-1,1,125,A dry herb that can be brewed for special medicinal purposes,TJV_Dried,Tulipa1D-bloomer,-1, jungle, vine
+15,Strong Forest Herb Seed,Seed,3,20,1,40,A small seed ready to sprout into a beautiful herb,SFO_Seed,Tulipa1D-bloomer,16, forest, herb
+16,Strong Forest Herb,Plant,10,-1,1,120,Thick blades of orange grass ,SFO_Plant,Tulipa1D-bloomer,17, forest, herb
+17,Dried Strong Forest Herb,DryHerb,4,-1,1,225,A dry herb that can be brewed for special medicinal purposes,SFO_Dried,Tulipa1D-bloomer,-1, forest, herb
+18,Glowing Oceanic Fungi Seed,Seed,10,30,1,100,Some spores that thrive in water,GOF_Seed,Tulipa1D-bloomer,19, ocean, fungi
+19,Glowing Oceanic Fungi,Plant,10,-1,1,250,Thick blades of orange grass ,GOF_Plant,Tulipa1D-bloomer,20, ocean, fungi
+20,Dried Glowing Oceanic Fungi,DryHerb,70,-1,1,575,A dry herb that can be brewed for special medicinal purposes,GOF_Dried,Tulipa1D-bloomer,-1, ocean, fungi
+21,Pulsating Cave Moss Seed,Seed,30,20,1,125,A collection of spores they seem to move in responce to light,PCM_Seed,Tulipa1D-bloomer,22, cave, moss
+22,Pulsating Cave Moss,Plant,30,-1,1,500,Thick blades of orange grass ,PCM_Plant,Tulipa1D-bloomer,23, cave, moss
+23,Dried Pulsating Cave Moss,DryHerb,15,-1,1,550,A dry herb that can be brewed for special medicinal purposes,PCM_Dried,Tulipa1D-bloomer,-1, cave, moss
+24,Carnivorous Cavern Vine Seed,Seed,45,15,1,200,A small seed that seems ready to grow in the right soil,CCG_Seed,Tulipa1D-bloomer,25, cave, vine
+25,Carnivorous Cavern Vine,Plant,45,-1,1,1000,Thick blades of orange grass ,CCG_Plant,Tulipa1D-bloomer,26, cave, vine
+26,Dried Carnivorus Cavern Vine,DryHerb,30,-1,1,1500,A dry herb that can be brewed for special medicinal purposes,CCG_Dried,Tulipa1D-bloomer,-1, cave, vine
+27,Fiery Desert Moss Seed,Seed,45,15,1,200,A small seed that seems ready to grow in the right soil,FDH_Seed,Tulipa1D-bloomer,25, cave, moss
+28,Fiery Desert Moss,Plant,45,-1,1,1000,Thick blades of orange grass ,FDH_Plant,Tulipa1D-bloomer,26, cave, moss
+29,Dried Fiery Desert Moss,DryHerb,30,-1,1,1500,A dry herb that can be brewed for special medicinal purposes,FDH_Dried,Tulipa1D-bloomer,-1, cave, moss
+-,,,,,,,,,,,,
+-Recipies,,,,,,,,,,,,
+-ID,Name, Type, Process Time, First Ingredient, Second Ingredient, Price, Description, Icon, Mesh, Created Potion, biome, genus
+100, Grass Enhancer Recipe,Recipe,4,2,2,280, Dried Grass Root + Dried Grass Root = Grass Root Enhancer,pots,Tulipa1D-bloomer,200, specificMulti,0
+101, Fragrant Enhancer Recipe,Recipe,4,5,5,280,Dried Fragrant Orchid + Dried Fragrant Orchid = Fragrant Orchid Enhancer,pots,Tulipa1D-bloomer,201, specificMulti,3
+102, Desert Grass Enhancer Recipe,Recipe,4,8,8,280,Dried Desert Grass Root + Dried Desert Grass Root = Desert Grass Essence,pots,Tulipa1D-bloomer,202, specificMulti,6
+103, Giant Jungle Recipe,Recipe,4,11,11,280,Dried Giant Jungle Orchid + Dried Giant Jungle Orchid = Giant Jungle Orchid,pots,Tulipa1D-bloomer,203, specificMulti,9
+104, Flower Fertilizer 1 Recipe,Recipe,4,5,11,280,Dried Fragrant Orchid + Dried Giant Jungle Orchid = Flower Fertilizer 1,pots,Tulipa1D-bloomer,204, accelGrass,0
+105, Grass Fertilizer 1 Recipe,Recipe,4,2,8,280,Dried Grass Root + Dried Desert Grass Root = Grass Fertilizer 1 ,pots,Tulipa1D-bloomer,205, accelFlower,0
+106, Jungle Vine Recipe,Recipe,4,14,14,280,Dried Thorny Jungle Vine + Dried Thorny Jungle Vine = Thorny Jungle Vine Enhancer ,pots,Tulipa1D-bloomer,206, specificMulti,12
+107, Flower Fertilizer 2 Recipe,Recipe,4,11,14,280,Dried Giant Jungle Orchid + Dried Thorny Jungle Vine = Flower Fertilizer 2 ,pots,Tulipa1D-bloomer,207, accelFlower,0
+108, Forest Recipe,Recipe,4,17,17,280,Dried Strong Forest Herb + Dried Strong Forest Herb = Strong Forest Herb Enhancer ,pots,Tulipa1D-bloomer,208, specificMulti,15
+109, Oceanic Fungi Recipe,Recipe,4,20,20,280,Dried Glowing Oceanic Fungi + Dried Glowing Oceanic Fungi ,pots,Tulipa1D-bloomer,209, specificMulti,18
+110, Cave Moss Recipe,Recipe,4,20,20,280,Dried Glowing Oceanic Fungi + Dried Glowing Oceanic Fungi = Glowing Oceanic Fungi Enhancer,pots,Tulipa1D-bloomer,210, specificMulti,0
+111, Cavern Grass Recipe,Recipe,4,26,26,280,Dried Pulsating Cave Moss + Dried Pulsating Cave Moss,pots,Tulipa1D-bloomer,211, specificMulti,0
+112, Grass Fertilizer 2 Recipe,Recipe,4,26,2,280,Dried Carnivorus Cavern Grass + Dried Grass Root ,pots,Tulipa1D-bloomer,212, specificMulti,0
+113, Grass Fertilizer 3 Recipe,Recipe,4,26,8,280,Dried Carnivorus Cavern Grass + Dried Desert Grass Room ,pots,Tulipa1D-bloomer,213, specificMulti,0
+114, Reef Mosss Recipe,Recipe,4,2,2,280,TODO ,pots,Tulipa1D-bloomer,200, specificMulti,0
+115, Moss Fertilizer Recipe,Recipe,4,2,2,280,TODO ,pots,Tulipa1D-bloomer,200, specificMulti,0
+116, Desert Herb Recipe,Recipe,4,2,2,280,TODO ,pots,Tulipa1D-bloomer,200, specificMulti,0
+117, Herb Fertilizer Recipe,Recipe,4,2,2,280,TODO ,pots,Tulipa1D-bloomer,200, specificMulti,0
+-Potions,,,,,,,,,,,,
+200,Grass Root Enhancer,Potion,4,-1,1,520,A simple potion that empowers Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+201,Fragrant Orchid Enhancer,Potion,4,-1,1,520,A simple potion that empowers Fragrant Orchids to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,3
+202,Desert Grass Root Enhancer,Potion,4,-1,1,520,A simple potion that empowers Desert Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,6
+203,Giant Jungle Orchid Enhancer,Potion,4,-1,1,520,A simple potion that empowers Giant Jungle Orchids to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,9
+204,Flower Fertilizer 1,Potion,4,-1,1,520,A simple potion that empowers Flower plants to grow faster,perfume,Tulipa1D-bloomer,-1, accelGrass,0
+205,Grass Fertilizer 1,Potion,4,-1,1,520,A simple potion that empowers Grass plants to grow faster,perfume,Tulipa1D-bloomer,-1, accelFlower,0
+206,Thorny Jungle Vine Enhancer,Potion,4,-1,1,520,A simple potion that empowers Thorny Jungle Vines to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,12
+207,Flower Fertilizer 2,Potion,8,-1,1,520,A decent potion that empowers Flower plants to grow faster,perfume,Tulipa1D-bloomer,-1, accelFlower,0
+208,Strong Forest Herb Enhancer,Potion,4,-1,1,520,A simple potion that empowers Strong Forest Herbs to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,15
+209,Glowing Oceanic Fungi Enhancer,Potion,4,-1,1,520,A simple potion that empowers Glowing Oceanic Fungis to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,18
+210,Pulsating Cave Moss Enhancer,Potion,4,-1,1,520,A simple potion that empowers Pulsating Cave Moss to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+211,Carnivorus Cavern Grass Enhancer,Potion,4,-1,1,520,A simple potion that empowers Carnivorus Cavern Grass to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+212,Grass Fertilizer 2 ,Potion,4,-1,1,520,A simple potion that empowers Grass plants to grow faster,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+213,Grass Fertilizer 3 ,Potion,4,-1,1,520,A simple potion that empowers Grass plants to grow faster,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+214,Aquatic Reef Moss Enhancer,Potion,4,-1,1,520,A simple potion that empowers Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+215,Moss Fertilizer 1,Potion,4,-1,1,520,A simple potion that empowers Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+216,Fiery Desert Herb Enhancer,Potion,4,-1,1,520,A simple potion that empowers Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+217,Herb Fertilizer 1,Potion,4,-1,1,520,A simple potion that empowers Grass Roots to grow stronger,perfume,Tulipa1D-bloomer,-1, specificMulti,0
+-Tasks,,,,,,,,,,,,
+-ID, name, item type= (task), task type, id for plant, next task?, how much exp given, description,,,,,
+1000, Grassy Roots 1,Task,0,0,1001,10,Buy a Grass Root Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1001, Grassy Roots 2,Task,2,1,1002,20,Plant a Grass Root Seed in the greenhouse.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1002, Grassy Roots 3,Task,5,1,1003,30,Harvest a fully grown plant.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1003, Grassy Roots 4,Task,1,1,-1,30,Sell your fully grown Grass Root back at the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1006, Kind of a Big Dill 1,Task,0,100,-1,250,Buy the Grass Recipe from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1008, You Grow Girl 1,Task,0,3,1009,15,Buy a Fragrant Orchid Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1009, You Grow Girl 2,Task,6,1,-1,30,Plant a seed at it's ideal temperature. (Will not work with Grass Root Seed),perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1010, Encourage-mint 1,Task,0,6,-1,20,Buy a Desert Grass Root Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1011, Encourage-mint  2,Task,0,9,-1,30,Buy a Giant Jungle Orchid Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1012, Encourage-mint  3,Task,0,12,-1,40,Buy a Thorny Jungle Vine Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1013, I’m rooting for you 1,Task,0,15,1014,75,Buy a Strong Forest Herb Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1014, I’m rooting for you 2,Task,0,18,1015,100,Buy a Glowing Oceanic Fungi Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1015, I’m rooting for you 3,Task,0,21,1016,125,Buy a Pulsating Cave Moss Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown
+1016, I’m rooting for you 4,Task,0,24,-1,150,Buy a Carnivorus Cavern Grass Seed from the store.,perfume,Tulipa1D-bloomer,-1, unknown, unknown

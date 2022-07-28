@@ -1,0 +1,3505 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &619858911891870389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 145122812408566285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df362a05e8f1e1042ab1505ab8102812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &1929093680635874288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503589692770721411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fa8d1bf8b992744b03173593b8cbf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!1 &1584989320172178509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2512759515570423071}
+  - component: {fileID: 2163894465568821531}
+  - component: {fileID: 5102561746074539285}
+  - component: {fileID: 5519563540951952458}
+  m_Layer: 0
+  m_Name: QuestSystem
+  m_TagString: Quest System
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2512759515570423071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584989320172178509}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 473.00012, y: 266, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5719298974477456721}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2163894465568821531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584989320172178509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e81932feb99f842866fc32b2f6886b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quest_list: []
+  quest_list_gameobject: {fileID: 8782464292292519050}
+--- !u!114 &5102561746074539285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584989320172178509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c4cab6d4c0064f4c9f6a03db85b1164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5519563540951952458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584989320172178509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed6b85f72fa82b243a0c8c09462afde9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6735615182769817956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167055208232305763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29aa2991525d4de4da243374ebaf1abf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &2391089339016382876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2449818202824819040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb1c2cd5e47e59f47825ba9fc0d8c971, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &8347458614377428557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3084485059840330090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ea1dfd257fada4b97b5912504c135a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &2609300661239546119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3489897500508790256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883cc9b7965a7c541be07fd829d86573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &2066475618433836327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3851582459935841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a58f5b5607abed4eb92262d5575f6c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &4019507582748400177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823391833700434932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e9dcb6257fbb445adfa4215148f3af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &3698051334561041846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4837935997747280001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a8771544b7579f45a0813b9aa045add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &1850339956491269854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5152894831332669330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb29630f466b4949b38a69c60309e37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &7760422702759722916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5518029342736773328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82c1063a40a7874eae5c359caf90cfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &3062786201002238522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5894687065226508035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5537f7fcb5879f40a8b5d02ff45b816, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &369696879905659852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5904679205272870562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054ff3d9afd235f439cf21a668d5d09c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &1870252664879726260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886157026179407537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39c66fece03dda84a8a940f08ba6c47a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &4628327831936288972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7217173506888911201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895e484966bb07449a16056dfc0258a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &3534493752993843325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8078194665832201139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b20b4e4614fb964ab346f92757996fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!114 &4522667670902516167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127175731589293423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24fe09fa2a56e6b4a8c8d20fa99b5ed3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activated: 0
+--- !u!1 &8782464292292519050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5719298974477456721}
+  m_Layer: 0
+  m_Name: QuestList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5719298974477456721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8782464292292519050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6360429997445424134}
+  - {fileID: 3249919870913655773}
+  - {fileID: 1857364364489277140}
+  - {fileID: 5424506883195210343}
+  - {fileID: 4015761160876549959}
+  - {fileID: 3650118989400187941}
+  - {fileID: 4636034406233230629}
+  - {fileID: 1371786911123465268}
+  - {fileID: 6207614250008847381}
+  - {fileID: 8633331255492002052}
+  - {fileID: 421040778105186490}
+  - {fileID: 4969598076115206710}
+  - {fileID: 4982216384776698179}
+  - {fileID: 7204861267964310486}
+  - {fileID: 2750505966052719575}
+  - {fileID: 6204377612616764852}
+  - {fileID: 8583233558792691672}
+  m_Father: {fileID: 2512759515570423071}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &49479679770498081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: A Souper Recovery
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Um, um, you sent us herbs awhile ago and now mommy feels all better!
+        I want to celebrate by making her a soup. She likes soup a lot. She also
+        likes ice drinks and, and, and mushrooms! So, I want my surprise soup to
+        have everything that she likes. She\u2019s going to be so happy!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 2300
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Strong Forest Herb
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Silver Glowing Oceanic Fungi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Gold Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: A Souper Recovery
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &1503589692770721411 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 49479679770498081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1371786911123465268 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 49479679770498081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &747868433315745473
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Who Loses When Elephants Fight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Grass! I love grass so much. It\u2019s soft, and smooth, and tickles!
+        It can get eaten by a bunny but grow right back in no time at all. It can
+        get squished by a pebble but can split solid concrete. Grass is amazing!
+        I cannot befriend anyone who does not acknowledge the greatness of grass.
+        Prove that you understand what I mean, or we can\u2019t be friends."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Gold Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Gold Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Who Loses When Elephants Fight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &2167055208232305763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 747868433315745473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1857364364489277140 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 747868433315745473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1617231210133625007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: From the Horse's Mouth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "It\u2019s me, the horse guy. You really saved my bacon last time by
+        sending me that special feed, but I\u2019m afraid I have a new problem. Well\u2026
+        technically it\u2019s more like I have the same problem. Your special feed
+        worked for a while, but the horse got used to it and went back to his lovesick
+        ways. Maybe we can amp it up a little bit this time, really knock his horseshoes
+        off?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 9100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Silver Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Silver Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: From the Horse's Mouth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &145122812408566285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 1617231210133625007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &421040778105186490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 1617231210133625007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2378334418541630512
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Fungi for A Fun Guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Do you like fun? Of course, you do! Everyone likes fun. And what\u2019s
+        more fun than a bouncy castle? At EcoFun we create bouncy castles using biodegradable
+        materials formed from three different types of fungi. Isn\u2019t that crazy?
+        The only thing better than fun is eco-friendly fun. Call now to preorder
+        your planet-friendly bouncy castle today!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 8415
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Grass Root Enhancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Gold Glowing Oceanic Fungi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Silver Glowing Oceanic Fungi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Fungi for a Fun Guy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &3851582459935841938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 2378334418541630512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3650118989400187941 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 2378334418541630512}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2602095504099776338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: We Have Chemistry
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: 'I am sure you frequently receive requests for exotic plants and fungi.
+        This is nothing like that. I do not wish for medicinal herbs or decorations.
+        I am a chemist. All I care for is certain compounds that I cannot find elsewhere.
+        I have attached a list of all the materials I need, so PLEASE do not forget
+        to process the plants before you send them. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 12000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Grass Root Enhancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Silver Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: We Have Chemistry
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &4015761160876549959 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 2602095504099776338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3489897500508790256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 2602095504099776338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3858911939718761410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: A Near Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "You aren\u2019t going to believe this, but my best friend is really
+        nuts about grass. That\u2019s totally crazy, right? Moss is so much better.
+        But somehow, he got his hands on a couple of gold grade pieces of grass and
+        he won\u2019t stop talking about it. It is obvious that moss is superior
+        to grass, but my moss collection as it is now can\u2019t compete with his
+        special grass! Help a guy out, won\u2019t you? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Silver Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Silver Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Gold Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[3]
+      value: Gather Gold Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: A Near Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &2449818202824819040 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 3858911939718761410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2750505966052719575 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 3858911939718761410}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4520577785950094280
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Fallen and Can't Get Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Um\u2026 um\u2026 my mommy fell down and hurt her arm and then she
+        got sick. But she says you can send something to fix her. She says its easy
+        to fix arms, but she needs something really good to stop coughing. Oh, mommy
+        wants me to say, \u201Cthank you.\u201D "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 260
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Silver Strong Forest Herb
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Grass Root Enhancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Fallen and Can't Get Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &3084485059840330090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 4520577785950094280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3249919870913655773 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 4520577785950094280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5009050799183451136
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: All In a Day's Work
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "This mission is unlike any you have ever done before. It is not too
+        extreme to say the fate of the planet is at stake. What? No\u2026 not Earth.
+        Not the planet you are on either. The pitstop planet MD 5401 is on the verge
+        of collapse. The roots of its plants are holding the planet together, but
+        an invasive species of rat has had a devastating effect on the ecosystem.
+        It\u2019s time to help the plants fight back! Are you with me? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 22000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Glowing Oceanic Fungi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Carnivorous Cave Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: All In A Day's Work
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &6207614250008847381 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5009050799183451136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5904679205272870562 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5009050799183451136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5024955046470745505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Poor Unfortunate Soul
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "I don\u2019t know if you remember me, but I\u2019m sorry to bother
+        you a second time\u2026 The arctic garden I made with the plants you sent
+        me was very nice, but I\u2019m afraid I ended up being transferred to another
+        planet. This time the planet is completely aquatic\u2026 but I would still
+        like to have a garden view. I promise this will be the last time I impose
+        on you!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 13000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Glowing Oceanic Fungi
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Carnivorous Cavern Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[3]
+      value: Gather Gold Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Poor Unfortunate Soul
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &6204377612616764852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5024955046470745505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5894687065226508035 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5024955046470745505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5468091291430573075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Quest_Progress_List.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Grass is Greener
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "My best horse has not been eating well lately. He used to love eating
+        all sorts of grass, but ever since he galloped past that new filly in the
+        other field, he hasn\u2019t eaten anything except the occasional orchid.
+        I was hoping you could send me a bag of special feed that might restimulate
+        his appetite. Please help!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Fragrant Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[3]
+      value: Gather Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: GrassIsGreener
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &6886157026179407537 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5468091291430573075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6360429997445424134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 5468091291430573075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6048573812828290352
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Smells Like Trouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: Hello there, we are from the marketing division of the corporation.
+        If you have sold any Fragrant Orchid Produce, it ends up on our shelves.
+        Anyway, we are constantly looking to discover new and wild scents and our
+        scientists think they have stumbled across a perfect combination. Something
+        wild, something dangerous, it is sure to attract customers!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 380
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Fragrant Orchid Enhancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Giant Jungle Orchid Enhancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Thorny Jungle Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Smells Like Trouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &5152894831332669330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6048573812828290352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4636034406233230629 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6048573812828290352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6233608655198456150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Holy Guacamole!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: I am the Grand Priestess of the Holy Order. Your name reached my ears
+        at the Intergalactic Flower Show, and if you fulfill my request then I shall
+        not forget to spread word of you to even more important figures. All that
+        is necessary for you to do is provide me with the perfect salad for my ladies
+        group. I hope it will have some divine garnishing and a dressing that is
+        to die for.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 14000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Gold Strong Forest Herb
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Silver Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Holy Guacamole!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &4823391833700434932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6233608655198456150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4982216384776698179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6233608655198456150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6292045939697168931
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Vine Inside the Jungle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "This recipe has been in my family for a hundred generations, which
+        is a little strange since most of these ingredients are native to alien planets
+        and the space age hadn\u2019t started yet. But if you stuff Giant Jungle
+        Orchids with Carnivorous Cavern Vines, you\u2019ll have a stinky gourmet
+        dish that can satisfy your elephant wasp for a week. Hm\u2026 come to think
+        of it, I don\u2019t think elephant wasps were around a hundred generations
+        ago either\u2026"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 16600
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Carnivorous Cavern Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Gold Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Vine Inside the Jungle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &4969598076115206710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6292045939697168931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4837935997747280001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6292045939697168931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6404647714928884338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: What Could Go Wrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "*Sigh* My client can be quite demanding. I hope you might be able to
+        help me fulfill his demands. You see, he is a collector of all the most dangerous
+        plant life in the galaxy. I\u2019ve checked everywhere for quality plants
+        and frankly I\u2019m at the end of my rope. At this point I\u2019m not even
+        hopeful, but on the off chance you have something good I will be eternally
+        grateful."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 1780
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Silver Thorny Jungle Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Silver Carnivorous Cavern Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Silver Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: What Could Go Wrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &5518029342736773328 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6404647714928884338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5424506883195210343 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 6404647714928884338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7235481839643242769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: A Noble Endeavor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Uwoohoo. I wish to enter the Intergalactic Flower Show, but I doooon\u2019t
+        wish to go through all the haassle of having to grow anything myself. I heard
+        youu were the one to taalk to. Give me something nice, but not tooo nice.
+        The duke is entering a diviiine flower and it simply wouldn\u2019t dooo to
+        upstage him. I\u2019ll be fiiine if you get me second place."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Gold Fragrant Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Buy Grass Enhancer Recipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Silver Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: A Noble Endeavor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &8633331255492002052 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 7235481839643242769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8078194665832201139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 7235481839643242769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7258566881015345101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Fit For A King
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: This mission is from the highest levels of authority. I do mean the
+        highest. The Grand Priestess bragged to his eminence about the Carnivorous
+        Cavern Vine you provided as a mere garnishing for her brunch. This has aroused
+        the curiosity of his eminence and one thing led to another. This is your
+        moment. Send us the best Carnivorous Cavern Vine you can grow, and your future
+        shall be secure.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Gold Carnivorous Cavern Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Carnivorous Cavern Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Pulsating Cave Moss
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[3]
+      value: Gather Gold Desert Grass Root
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Fit For A King
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!1 &8127175731589293423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 7258566881015345101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8583233558792691672 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 7258566881015345101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8095948527905194947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5719298974477456721}
+    m_Modifications:
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Progresses.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_name
+      value: Common Scents
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_description
+      value: "Hello there, we are the corporate division of the corporation. In the
+        past you have provided us with some materials for a new perfume. The recipe
+        did not work out exactly as intended. I\u2019m afraid that the Giant Jungle
+        Orchid included in the perfume had the unexpected side effect of attracting
+        a great number of flies to the wearer\u2026 But your materials were top notch,
+        and we are not ready to give up on this product quite yet. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_requirement
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_exp_reward
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_coin_reward
+      value: 24000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: quest_unlocked_level
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[0]
+      value: Gather Silver Fragrant Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[1]
+      value: Gather Giant Jungle Orchid
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[0]
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Names.Array.data[2]
+      value: Gather Silver Thorny Jungle Vine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[2]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[3]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[4]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[5]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[6]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[7]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[8]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[9]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[10]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[11]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[12]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[13]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[14]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[15]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[16]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[17]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146182242563172262, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: Tracker_Achieved.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_Name
+      value: Common Scents
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+--- !u!4 &7204861267964310486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1415917456624021525, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 8095948527905194947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7217173506888911201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1473270102636595874, guid: 55c99b314af5b8042bb5f0e4056118ce, type: 3}
+  m_PrefabInstance: {fileID: 8095948527905194947}
+  m_PrefabAsset: {fileID: 0}

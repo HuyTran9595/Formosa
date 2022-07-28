@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ce62529e753704084fcc1f44bd0569, type: 3}
+  m_Name: Sheep
+  m_EditorClassIdentifier: 
+  ID: 3
+  ItemName: Sheep
+  ItemType: 5
+  Price: 68
+  Description: It's a sheep!
+  Icon: {fileID: 6120368770282991287, guid: 148df48e3f1cc0e4daf49dac42649167, type: 3}
+  MaxHeld: 0
+  unlock: 0
+  CurrHeld: 0
+  tier: 0
+  FindTimer: 90
+  Findable: 0c00000012000000
+  Model: {fileID: 919132149155446097, guid: 8870695c28c47f84fb5ee2126be768cd, type: 3}

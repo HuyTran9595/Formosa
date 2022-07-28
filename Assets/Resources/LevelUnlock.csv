@@ -1,0 +1,26 @@
+-Level, Unlock Type,Unlock Num
+- unlock types:item, plot,lab,magic,task
+-unlock nums come from FlowerData
+1, item, 0, item, 3	
+2, item, 6, plot, 1, task, 1010
+3, lab, 1, task, 1006
+4, item, 9, task, 1011
+5, lab, 2, plot, 2	
+6, item, 12, task 1012
+7, item, 15, task, 1013
+8, lab, 3, item, 18	, task, 1014
+10, plot, 3, magic, 1,item, 100, task, 1006
+11, item, 21, task, 1015, item, 101, item, 102
+12, item, 24, task, 1016
+-13
+14, plot, 4
+15, lab, 4, magic, 2
+16, item, 103
+-Strong Forrest Herb Product
+-13	Fiery Desert Herb	Glowing Oceanic Fungi Product	
+-14	Carnivorus Cavern Grass Product	Plot 4	
+-15	Lab 4	Magic 2	
+-16	Potent Forest Fungi	Giant Jungle Orchid Enhancer	
+-17	Fiery Desert Herb Product	Potent Forest Fungi Product	
+-18	Aquatic Reef Moss	Flower Fertilizer- Power: 1	Grass Fertilizer- Power: 1
+-19	Thorny Jungle Vine Enhancer	Flower Fertilizer- Power: 2	
